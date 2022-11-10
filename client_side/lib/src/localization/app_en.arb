@@ -1,0 +1,6 @@
+{
+  "appTitle": "ubipay",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}

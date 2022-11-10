@@ -1,0 +1,21 @@
+{
+    "appName": "ubipay",
+    "roleName": "pinpointLambdaRole04cf1a4b",
+    "cloudformationPolicyName": "cloudformationPolicy04cf1a4b",
+    "cloudWatchPolicyName": "cloudWatchPolicy04cf1a4b",
+    "pinpointPolicyName": "pinpointPolicy04cf1a4b",
+    "authPolicyName": "pinpoint_amplify_04cf1a4b",
+    "unauthPolicyName": "pinpoint_amplify_04cf1a4b",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

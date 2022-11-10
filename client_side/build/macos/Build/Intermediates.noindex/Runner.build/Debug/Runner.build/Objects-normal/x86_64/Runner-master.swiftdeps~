@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
+options: "05433242077a22ab617393f500a5a2bef0dc3a01b1cb3aa4787af38338b908a7"
+build_start_time: [1665306361, 829461097]
+build_end_time: [1665306361, 968304157]
+inputs:
+  "/Users/hikoto-i/Flutter/ubipay/macos/Flutter/GeneratedPluginRegistrant.swift": !private [1665306335, 334089279]
+  "/Users/hikoto-i/Flutter/ubipay/macos/Runner/AppDelegate.swift": !private [1664987363, 0]
+  "/Users/hikoto-i/Flutter/ubipay/macos/Runner/MainFlutterWindow.swift": !private [1664987363, 0]

@@ -1,0 +1,51 @@
+name: ubipay
+description: A new Flutter project.
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  amplify_auth_cognito: ^0.6.8
+  amplify_authenticator: ^0.2.3
+  amplify_flutter: ^0.6.8
+  amazon_cognito_identity_dart_2: ^3.0.3
+  jwt_decode: ^0.3.1
+  amplify_analytics_pinpoint: ^0.6.8
+  qr_flutter: ^4.0.0
+  http: ^0.13.5
+  persistent_bottom_nav_bar: ^4.0.2
+  #persistent_bottom_nav_bar: ^5.0.2
+  settings_ui: ^2.0.2
+  shared_preferences: ^2.0.15
+  provider: ^6.0.4
+  intl: ^0.17.0
+  url_launcher: ^6.1.6
+  qr_code_scanner: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/images/

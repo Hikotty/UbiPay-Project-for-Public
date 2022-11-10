@@ -1,0 +1,75 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ubipay-ubipay-152638-authRole",
+      "UnauthRoleArn": "arn:aws:iam::183336931101:role/amplify-ubipay-ubipay-152638-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::183336931101:role/amplify-ubipay-ubipay-152638-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-ubipay-ubipay-152638-deployment",
+      "UnauthRoleName": "amplify-ubipay-ubipay-152638-unauthRole",
+      "StackName": "amplify-ubipay-ubipay-152638",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:183336931101:stack/amplify-ubipay-ubipay-152638/54f9bf70-479b-11ed-b30b-0ecd08b37bcb",
+      "AmplifyAppId": "d3ie00wqmpce07"
+    }
+  },
+  "auth": {
+    "ubipay08c79779": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-ubipay-ubipay-152638-deployment/amplify-cfn-templates/auth/ubipay08c79779-cloudformation-template.json",
+        "logicalId": "authubipay08c79779"
+      },
+      "lastPushTimeStamp": "2022-10-09T13:35:17.313Z",
+      "output": {
+        "UserPoolId": "ap-northeast-1_GOttrtBF6",
+        "AppClientIDWeb": "6emdeed0gmp7sbo080bt6ourc0",
+        "AppClientID": "5c1afsu5u7qv43ct4apd6iu1s",
+        "IdentityPoolId": "ap-northeast-1:1a61abd3-1313-4cc9-964d-63371b9688e7",
+        "UserPoolArn": "arn:aws:cognito-idp:ap-northeast-1:183336931101:userpool/ap-northeast-1_GOttrtBF6",
+        "IdentityPoolName": "ubipay08c79779_identitypool_08c79779__ubipay",
+        "UserPoolName": "ubipay08c79779_userpool_08c79779"
+      },
+      "lastPushDirHash": "t9NR8ojdlERvR/buYYgTEp1SQCA="
+    }
+  },
+  "analytics": {
+    "ubipay": {
+      "service": "Pinpoint",
+      "providerPlugin": "awscloudformation",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-ubipay-ubipay-152638-deployment/amplify-cfn-templates/analytics/pinpoint-cloudformation-template.json",
+        "logicalId": "analyticsubipay"
+      },
+      "lastPushTimeStamp": "2022-10-09T13:35:17.313Z",
+      "output": {
+        "appName": "ubipay-ubipay",
+        "Region": "ap-northeast-1",
+        "Id": "afe1710e5b634ff98b333b624c0dbc9f"
+      },
+      "lastPushDirHash": "C6Ado1LHOzd/VP2MQi8cthtxO6k="
+    }
+  }
+}

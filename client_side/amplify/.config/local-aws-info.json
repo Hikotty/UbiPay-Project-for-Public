@@ -1,0 +1,12 @@
+{
+  "dev": {
+    "configLevel": "project",
+    "useProfile": false,
+    "awsConfigFilePath": "/Users/hikoto-i/.amplify/awscloudformation/qV80cxyxEE"
+  },
+  "ubipay": {
+    "configLevel": "project",
+    "useProfile": true,
+    "profileName": "UbiPay"
+  }
+}

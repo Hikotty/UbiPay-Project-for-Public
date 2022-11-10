@@ -1,0 +1,1 @@
+ /Users/hikoto-i/Flutter/ubipay/.dart_tool/flutter_gen/gen_l10n/app_localizations_en.dart /Users/hikoto-i/Flutter/ubipay/.dart_tool/flutter_gen/gen_l10n/app_localizations.dart:  /Users/hikoto-i/Flutter/ubipay/l10n.yaml /Users/hikoto-i/Flutter/ubipay/lib/src/localization/app_en.arb

@@ -1,0 +1,34 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ubipay-dev-152324-authRole",
+      "UnauthRoleArn": "arn:aws:iam::183336931101:role/amplify-ubipay-dev-152324-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::183336931101:role/amplify-ubipay-dev-152324-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-ubipay-dev-152324-deployment",
+      "UnauthRoleName": "amplify-ubipay-dev-152324-unauthRole",
+      "StackName": "amplify-ubipay-dev-152324",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:183336931101:stack/amplify-ubipay-dev-152324/e21fbd60-479a-11ed-a402-0a0ad878d807",
+      "AmplifyAppId": "d3ie00wqmpce07"
+    }
+  },
+  "ubipay": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ubipay-ubipay-152638-authRole",
+      "UnauthRoleArn": "arn:aws:iam::183336931101:role/amplify-ubipay-ubipay-152638-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::183336931101:role/amplify-ubipay-ubipay-152638-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-ubipay-ubipay-152638-deployment",
+      "UnauthRoleName": "amplify-ubipay-ubipay-152638-unauthRole",
+      "StackName": "amplify-ubipay-ubipay-152638",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:183336931101:stack/amplify-ubipay-ubipay-152638/54f9bf70-479b-11ed-b30b-0ecd08b37bcb",
+      "AmplifyAppId": "d3ie00wqmpce07"
+    },
+    "categories": {
+      "auth": {
+        "ubipay08c79779": {},
+        "true": {}
+      }
+    }
+  }
+}
