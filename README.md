@@ -86,13 +86,26 @@ UbiPayは将来的なスケーラビリティの確保を設計段階から行�
 
 ## 使用方法
 
-準備中
+### 入金方法
+
+1. 購入・入金ターミナルの「入金」ボタンをタッチします。
+2. スマートフォン端末でUbiPayを起動し、「ホーム」画面の「チャージ」をタッチし、QRコードを表示します。
+3. QRコードを購入・入金ターミナルのカメラにかざします。
+4. 入金額をタッチパネルに入力します。
+5. 管理者パスワードを要求されるため、管理者に入力を依頼します。
+6. 入金完了
+
+### 購入方法
+
+1. 購入・入金ターミナルの「購入」ボタンをタッチします。
+2. スマートフォン端末でUbiPayを起動し、「ホーム」画面の「チャージ」をタッチし、QRコードを表示します。
+3. QRコードを購入・入金ターミナルのカメラにかざします。
+4. 購入額をタッチパネルに入力します。
+5. 入金完了。
 
 ## メンバー
 1. バックエンド・フロントエンド開発、全体設計 :　Hikoto Iseda/伊勢田氷琴（M1 Student of Ubiquitous Computing Syatem Lab, at Nara Institute of Science and Technology, Nara, Ikoma）
 2. UIデザイン : Nanako Michiura/道浦菜々子（M1 Student of Ubiquitous Computing Syatem Lab, at Nara Institute of Science and Technology, Nara, Ikoma）
-
-
 
 # UbiPay-Project-for-Public
 
@@ -120,7 +133,7 @@ Therefore, we developed our own scalable QR code payment application, UbiPay, wh
 ## UbiPay architecture
 The architecture of UbiPay is shown in Figure 1.
 
-! [Alt text](1.png "Figure 1")
+![Alt text](1.png "図１")
 
 UbiPay's system consists of three major elements: "deposit/purchase terminal/deposit_terminal", "API server/server_side" and "user's smartphone terminal/client_side".
 
@@ -183,7 +196,21 @@ UbiPay ensures future scalability from the design stage. Specifically, the loose
 
 ## How to use
 
-now preparing
+### Deposit Methods
+
+1. Touch the "Deposit" button in the Purchase and Deposit Terminal.
+2. Start UbiPay on your smartphone device and touch "Charge" on the "Home" screen to display the QR code.
+3. Hold the QR code up to the camera of the purchase/deposit terminal.
+4. Enter the deposit amount into the touch screen. You will be asked for the administrator password, which you will be asked to enter.
+6. Deposit completed
+
+### How to make a purchase
+
+1. Touch the "Buy" button on the Purchase and Deposit Terminal
+2. Start UbiPay on your smartphone device and touch "Charge" on the "Home" screen to display the QR code.
+3. Hold the QR code up to the camera of the purchase/deposit terminal.
+4. Enter the purchase amount into the touch screen.
+5. Purchase completed.
 
 ## Members
 1. Backend,frontend, deposit terminal and design : Hikoto Iseda（M1 Student of Ubiquitous Computing Syatem Lab, at Nara Institute of Science and Technology, Nara, Ikoma）
