@@ -101,7 +101,7 @@ UbiPayは将来的なスケーラビリティの確保を設計段階から行�
 2. スマートフォン端末でUbiPayを起動し、「ホーム」画面の「チャージ」をタッチし、QRコードを表示します。
 3. QRコードを購入・入金ターミナルのカメラにかざします。
 4. 購入額をタッチパネルに入力します。
-5. 入金完了。
+5. 購入完了
 
 ## メンバー
 1. バックエンド・フロントエンド開発、全体設計 :　Hikoto Iseda/伊勢田氷琴（M1 Student of Ubiquitous Computing Syatem Lab, at Nara Institute of Science and Technology, Nara, Ikoma）
